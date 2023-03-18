@@ -5,8 +5,6 @@ public class printf{
         byte age = 18;
         float height = 1.65f;
 
-        System.out.printf(
-            "Hola, mi nombre es %s tengo %d años y mido %.1f.\n",
-            name, age, height);
+        System.out.printf("Hola, mi nombre es %s tengo %d años y mido %.1f.\n", name, age, height);
     }
 }
